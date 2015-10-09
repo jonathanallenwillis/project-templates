@@ -1,0 +1,40 @@
+{
+  "name": "tp-typescript",
+  "version": "0.0.0",
+  "description": "Template Project for typescript.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "Jonathan Willis",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "immutable": "^3.7.5",
+    "rx": "^4.0.0",
+    "systemjs": "^0.19.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.6",
+    "del": "^2.0.2",
+    "es6-module-loader": "^0.17.8",
+    "gulp": "^3.9.0",
+    "gulp-angular-templatecache": "^1.7.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-size": "^2.0.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-tslint": "^3.3.0",
+    "gulp-typescript": "^2.9.0",
+    "systemjs-builder": "^0.14.6",
+    "traceur": "0.0.91",
+    "tsd": "^0.6.4",
+    "typescript": "^1.6.2",
+    "gulp-directory-map": "~0.1.2"
+  },
+    "scripts": {
+        "postinstall": "bash -c 'mkdir -p source/{typings,ts,css} && mkdir -p output/{css,js}'"
+    }
+}
